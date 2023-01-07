@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Layout from "./layout/javascript files/Layout";
+import { Route, Routes } from "react-router-dom";
+import MainPage from "./MainPage";
 
+//Called by index.js to render web app
+//Should contain all the webpages to be used
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+      </Routes>
+    </Layout>
   );
 }
 
