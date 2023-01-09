@@ -13,7 +13,6 @@ import data2 from "../../data/LatestPost.json";
 import { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
 //Contains the one page website and all its different sections and their components
 function MainPage() {
   function handleClickScroll(id) {
@@ -22,7 +21,7 @@ function MainPage() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   }
-  //get data from json
+  //get data from json and map them to their respective attributes
   const latestPost = data2.LatestPost.map((data2) => {
     return (
       <LatestPost
@@ -33,25 +32,6 @@ function MainPage() {
       />
     );
   });
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
 
   const dataScience = data.DataScience.map((data) => {
     return (
@@ -91,10 +71,10 @@ function MainPage() {
     );
   });
 
-  //create useState to avoid refreshing page
+  //create useState to avoid refreshing page, used in the tracks section
   const [selectedSubs, setSubs] = useState(dataScience);
 
-  //changes content based on selected button
+  //changes content based on selected button in the tracks section
   function selectTrack(selectedTrack) {
     if (selectedTrack === "DS") {
       setSubs(dataScience);
@@ -202,6 +182,7 @@ function MainPage() {
         <div>
           <h2>Latest Post</h2>
           <div className={classes.centerContent}>
+            {/* Carousel of images used dependency react-multi-carousel */}
             <Carousel
               additionalTransfrom={0}
               arrows={true}
