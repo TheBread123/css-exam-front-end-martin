@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
-import classes from "../css files/HeaderAndFooter.module.css";
+import classes from "../css files/LayoutStyles.module.css";
+import CSSLogo from "../../images/CSSLogo.png";
 
-//serves as
+//serves as the header of the webpage
 function Header() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Insert Logo Here</div>
+      <div>
+        {" "}
+        <img src={CSSLogo} alt="CSS Logo" />
+      </div>
       <nav>
         <ul>
           <li>

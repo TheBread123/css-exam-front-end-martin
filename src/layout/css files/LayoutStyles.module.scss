@@ -1,0 +1,223 @@
+$dividerBgColor: #f7f8f9;
+$buttonColorDefault: #6973db;
+$clickedButtonColor: #d25e00;
+$shadowColor: #e8ebed;
+$shadowColor2: #72787f;
+$primaryColor: #287feb;
+
+.header {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $bgColor;
+  padding-left: 5%;
+  margin-bottom: 100px;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    grid-auto-flow: column;
+    align-items: baseline;
+    margin-top: 20px;
+  }
+  li {
+    font-weight: bold;
+    font-size: 0.938vw;
+    line-height: 150%;
+    display: block;
+    align-items: center;
+    &:hover {
+      scale: 1.2;
+    }
+  }
+  a {
+    text-align: center;
+    margin: 40px;
+    text-decoration: none;
+    font-size: 1.25vw;
+    color: $primaryColor;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  img {
+    margin-top: 25px;
+    margin-left: 100px;
+  }
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+  padding: 15px;
+  background-color: $primaryColor;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  li {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: $primaryColor;
+  }
+}
+
+.leftContainer {
+  width: 19.01vw;
+  height: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: relative;
+  flex-direction: column;
+  margin: 2% 5% 0 7%;
+  padding: 0;
+  overflow: visible;
+  img {
+    background-color: $bgColor;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .b2 {
+    font-weight: 400;
+    font-size: 0.833vw;
+    line-height: 150%;
+    color: $bgColor;
+  }
+  .signatureContainer {
+    display: flex;
+    width: 19.01vw;
+    height: 1.667vw;
+    border-radius: 15px;
+    background-color: $bgColor;
+    p {
+      padding-left: 10px;
+      font-weight: 900;
+      font-size: 0.833vw;
+      line-height: 150%;
+      display: flex;
+      align-items: center;
+      color: $primaryColor;
+    }
+  }
+}
+
+.rightContainer {
+  float: left;
+  width: 13.802vw;
+  height: 10.26vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-direction: column;
+  margin: 2.5% 0 0 27%;
+  padding: 0;
+  overflow: visible;
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+  }
+  li {
+    font-weight: 200;
+    font-size: 1vw;
+    line-height: 150%;
+    display: block;
+    align-items: center;
+  }
+  a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+    color: $bgColor;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .s1 {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 150%;
+    color: $bgColor;
+  }
+}
+
+.rightContainer2 {
+  float: left;
+  width: 13.802vw;
+  height: 10.26vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-direction: column;
+  margin: 2.5% 0% 0 15%;
+  padding: 0;
+  overflow: visible;
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding-top: 1vw;
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+  }
+  li {
+    display: flex;
+    flex-direction: row;
+    font-weight: 200;
+    font-size: 0.938vw;
+    align-items: center;
+    color: $bgColor;
+  }
+  a {
+    padding-top: 1px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+    color: $bgColor;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .s1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.938vw;
+    line-height: 150%;
+    color: $primaryColor;
+  }
+}

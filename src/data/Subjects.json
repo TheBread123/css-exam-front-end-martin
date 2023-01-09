@@ -1,0 +1,100 @@
+{
+  "DataScience": [
+    {
+      "id": 1,
+      "subjectCode": "CS ELEC 1C",
+      "subjectTitle": "Data Warehousing",
+      "alt": "Data Science"
+    },
+    {
+      "id": 2,
+      "subjectCode": "CS ELEC 2C",
+      "subjectTitle": "Machine Learning",
+      "alt": "Data Science"
+    },
+    {
+      "id": 3,
+      "subjectCode": "CS ELEC 4C",
+      "subjectTitle": "Data Analysis and Visualization",
+      "alt": "Data Science"
+    },
+    {
+      "id": 4,
+      "subjectCode": "CS ELEC 4C",
+      "subjectTitle": "Data Mining",
+      "alt": "Data Science"
+    }
+  ],
+
+  "CoreScience": [
+    {
+      "id": 1,
+      "subjectCode": "CS ELEC 1A",
+      "subjectTitle": "Advanced Intelligent Systems",
+      "alt": "Core Science"
+    },
+    {
+      "id": 2,
+      "subjectCode": "CS ELEC 2A",
+      "subjectTitle": "Compiler Design",
+      "alt": "Core Science"
+    },
+    {
+      "id": 3,
+      "subjectCode": "CS ELEC 4A",
+      "subjectTitle": "Natural Language Processing",
+      "alt": "Core Science"
+    },
+    {
+      "id": 4,
+      "subjectCode": "CS ELEC 4A",
+      "subjectTitle": "Empathic Computing",
+      "alt": "Core Science"
+    },
+    {
+      "id": 5,
+      "subjectCode": "CS 26117",
+      "subjectTitle": "Computer Security and Information Assurance",
+      "alt": "Core Science"
+    }
+  ],
+
+  "GameDevelopment": [
+    {
+      "id": 1,
+      "subjectCode": "CS ELEC 1B",
+      "subjectTitle": "Game Theory and Design",
+      "alt": "Game Development"
+    },
+    {
+      "id": 2,
+      "subjectCode": "CS ELEC 2B",
+      "subjectTitle": "Game Programming I",
+      "alt": "Game Development"
+    },
+    {
+      "id": 3,
+      "subjectCode": "CS ELEC 4B",
+      "subjectTitle": "Game Programming II",
+      "alt": "Game Development"
+    },
+    {
+      "id": 4,
+      "subjectCode": "CS ELEC 4B",
+      "subjectTitle": "Game Production",
+      "alt": "Game Development"
+    },
+    {
+      "id": 5,
+      "subjectCode": "CS 26117",
+      "subjectTitle": "Computer Security and Information Assurance",
+      "alt": "Core Science"
+    },
+    {
+      "id": 6,
+      "subjectCode": "CS 26115",
+      "subjectTitle": "Graphics Computing and Multimedia Technology",
+      "alt": "Game Development"
+    }
+  ]
+}
